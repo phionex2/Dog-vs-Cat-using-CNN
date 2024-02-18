@@ -54,8 +54,8 @@ cd Dog-vs-Cat-using-CNN
   <h4>Commands:</h4>
   <ul>
     <li>
-      !mkdir -p ~/.kaggle
-      !cp kaggle.json ~/.kaggle/
+      !mkdir -p ~/.kaggle<br>
+      !cp kaggle.json ~/.kaggle/<br>
     </li>
     <li>
       !kaggle datasets download -d salader/dogs-vs-cats
@@ -64,12 +64,9 @@ cd Dog-vs-Cat-using-CNN
   <p>Since dataset is in Zip Format you have to unzip it</p>
   <h4>Commands:</h4>
   <ul>
-    <li>
-      import zipfile
-
-      zip_ref = zipfile.ZipFile('/content/dogs-vs-cats.zip', 'r')
-      zip_ref.extractall('/content')
+      import zipfile<br>
+      zip_ref = zipfile.ZipFile('/content/dogs-vs-cats.zip', 'r')<br>
+      zip_ref.extractall('/content')<br>
       zip_ref.close()
-    </li>
   </ul>
 </div>
